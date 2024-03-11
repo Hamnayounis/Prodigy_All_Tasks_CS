@@ -1,57 +1,23 @@
+## Prodigy_Infotech_Internship
 ## Prodigy_CS_01
-The Caesar cipher is a simple encryption technique that was used by Julius Caesar to send secret messages to his allies. It works by shifting the letters in the plaintext message by a certain number of positions, known as the “shift” or “key”.
+Created a Python program that can encrypt and decrypt text using the Caesar Cipher algorithm allowing users to input a message and a shift value to perform encryption and decryption.
+<img width="924" alt="hello" src="https://github.com/Hamnayounis/Prodigy_CS_01/assets/81642245/378c62dc-e3bb-4837-ad92-006350ab487a">
 
-The Caesar Cipher technique is one of the earliest and simplest methods of encryption technique. It’s simply a type of substitution cipher, i.e., each letter of a given text is replaced by a letter with a fixed number of positions down the alphabet. For example with a shift of 1, A would be replaced by B, B would become C, and so on. The method is apparently named after Julius Caesar, who apparently used it to communicate with his officials.
+## Prodigy_CS_02
+Developed a simple image encryption tool using pixel manipulation. We can perform operations like swapping pixel values or applying a basic mathematical operation to each pixel allowing users to encrypt and decrypt images.
+![WhatsApp Image 2024-03-11 at 10 41 06 PM](https://github.com/Hamnayounis/Prodigy_CS_01/assets/81642245/baecfe20-ef3f-4a76-af2f-e8c114a1b3bd)
 
-Thus to cipher a given text we need an integer value, known as a shift which indicates the number of positions each letter of the text has been moved down. 
-The encryption can be represented using modular arithmetic by first transforming the letters into numbers, according to the scheme, A = 0, B = 1,…, Z = 25. Encryption of a letter by a shift n can be described mathematically as. 
+## Prodigy_CS_03
+Built a tool that assesses the strength of a password based on criteria such as length, presence of uppercase and lowercase letters, numbers, and special characters. Provides feedback to users on the password's strength.
+![task3](https://github.com/Hamnayounis/Prodigy_CS_01/assets/81642245/85aa027e-15c3-44aa-9ec4-87623f9c3295)
 
-For example, if the shift is 3, then the letter A would be replaced by the letter D, B would become E, C would become F, and so on. The alphabet is wrapped around so that after Z, it starts back at A.
+## Prodigy_CS_04
+Created a basic keylogger program that records and logs keystrokes. Focusing on logging the keys pressed and saving them to a file. 
+![WhatsApp Image 2024-03-11 at 10 52 13 PM](https://github.com/Hamnayounis/Prodigy_CS_01/assets/81642245/cac816ec-8703-419c-a87f-36e1f8cf951b)
 
-Here is an example of how to use the Caesar cipher to encrypt the message “HELLO” with a shift of 3:
-Write down the plaintext message: HELLO
-Choose a shift value. In this case, we will use a shift of 3.
-Replace each letter in the plaintext message with the letter that is three positions to the right in the alphabet.
+## Prodigy_CS_05
+![sniffingtool1](https://github.com/Hamnayounis/Prodigy_CS_01/assets/81642245/c26b25c6-8bcf-4a6e-a015-dcdd161d54e9)
 
-H becomes K (shift 3 from H)
-E becomes H (shift 3 from E)
-L becomes O (shift 3 from L)
-L becomes O (shift 3 from L)
-O becomes R (shift 3 from O)
+Developed a packet sniffer tool that captures and analyzes network packets. Displayed relevant information such as source and destination IP addresses, protocols, and payload data. 
 
-The encrypted message is now “KHOOR”.
-
-<img width="924" alt="hello" src="https://github.com/Hamnayounis/Prodigy_CS_01/assets/81642245/213dfcf7-9f81-4f68-b8c5-ac23c2a35c3f">
-
-To decrypt the message, you simply need to shift each letter back by the same number of positions. In this case, you would shift each letter in “KHOOR” back by 3 positions to get the original message, “HELLO”.
-
-## Advantages:
-Easy to implement and use thus, making suitable for beginners to learn about encryption.
-Can be physically implemented, such as with a set of rotating disks or a set of cards, known as a scytale, which can be useful in certain situations.
-Requires only a small set of pre-shared information.
-Can be modified easily to create a more secure variant, such as by using a multiple shift values or keywords.
-
-## Disadvantages:
-It is not secure against modern decryption methods.
-Vulnerable to known-plaintext attacks, where an attacker has access to both the encrypted and unencrypted versions of the same messages.
-The small number of possible keys means that an attacker can easily try all possible keys until the correct one is found, making it vulnerable to a brute force attack.
-It is not suitable for long text encryption as it would be easy to crack.
-It is not suitable for secure communication as it is easily broken.
-Does not provide confidentiality, integrity, and authenticity in a message. 
-
-## Features of caesar cipher:
-
-Substitution cipher: The Caesar cipher is a type of substitution cipher, where each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
-Fixed key: The Caesar cipher uses a fixed key, which is the number of positions by which the letters are shifted. This key is known to both the sender and the receiver.
-Symmetric encryption: The Caesar cipher is a symmetric encryption technique, meaning that the same key is used for both encryption and decryption.
-Limited keyspace: The Caesar cipher has a very limited keyspace of only 26 possible keys, as there are only 26 letters in the English alphabet.
-Vulnerable to brute force attacks: The Caesar cipher is vulnerable to brute force attacks, as there are only 26 possible keys to try.
-Easy to implement: The Caesar cipher is very easy to implement and requires only simple arithmetic operations, making it a popular choice for simple encryption tasks.
-
-## Rules for the Caesar Cipher:
-
-Choose a number between 1 and 25. This will be your “shift” value.
-Write down the letters of the alphabet in order, from A to Z.
-Shift each letter of the alphabet by the “shift” value. For example, if the shift value is 3, A would become D, B would become E, C would become F, and so on.
-Encrypt your message by replacing each letter with the corresponding shifted letter. For example, if the shift value is 3, the word “hello” would become “khoor”.
-To decrypt the message, simply reverse the process by shifting each letter back by the same amount. For example, if the shift value is 3, the encrypted message “khoor” would become “hello”.
+![sniffingtool2](https://github.com/Hamnayounis/Prodigy_CS_01/assets/81642245/f0e29afc-6234-444a-9fd3-7d22de477ae7)
